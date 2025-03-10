@@ -1,3 +1,6 @@
+
+<h3 align="left">Impact of Vouchers on Revenue & Inventory:</h3>
+
 ```mermaid
 flowchart LR
     A[(Impact of Vouchers on Revenue & Inventory)]
