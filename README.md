@@ -40,3 +40,60 @@ flowchart LR
     A4 --> A4b(Adjust Discount Strategy)
 end
 ```
+
+
+
+#--------
+
+<h3 align="left">Key Operational Challenges Impacting EskweGifts' Profitability and Growth:</h3>
+
+```mermaid
+graph TD
+    A(Sunk Cost)
+    B(Holding Cost)
+    C(Order Discount)
+    
+    A -->|Sunk Cost| AB[Both Sunk Cost & Holding Cost]
+    B -->|Holding Cost| AC[Both Sunk Cost & Order Discount]
+    C -->|Order Discount| BC[Both Holding Cost & Order Discount]
+    AB -->|Sunk Cost + Holding Cost| ABC[All Three Factors]
+```
+#----------
+
+<h3 align="left">Key Operational Challenges Impacting EskweGifts' Profitability and Growth:</h3>
+
+```mermaid
+flowchart LR
+    A[(Key Operational Challenges Impacting EskweGifts' Profitability and Growth)]
+    A1(Sunk Cost)
+    A2(Voucher and Order Discount)
+    A3(Strategic Recommendations)
+    A4(Revenue Optimization)
+
+    A --> A1
+    A --> A2
+    A --> A3
+    A --> A4
+
+    A1 --> A1a(Bulk Ordering vs Stock Purge)
+    A1 --> A1b(Excess Inventory Risk)
+    A1b --> A1b1(900+ SKUs, Slow-Moving Items)
+    A1 --> A1c(Donated Stock)
+    A1 --> A1d(Cost of Unsold Stock)
+
+    A2 --> A2a(Increased Sales Volume)
+    A2 --> A2b(Profit Margin Impact)
+    A2b --> A2b1(Dilution due to Voucher)
+    A2b --> A2b2(Lowered Profit Margin - High COGS, High Price)
+    A2b --> A2b3(Potential Profit Loss)
+
+    subgraph Recommendations
+    direction BT
+    A3 --> A3a(Optimize Inventory Replenishment)
+    A3 --> A3b(Limit Vouchers on High-Margin Items)
+    A3 --> A3c(Monitor Holding Costs)
+    A3 --> A3d(Dynamic Purge Strategy)
+
+    A4 --> A4b(Adjust Discount Strategy)
+end
+```
